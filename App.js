@@ -23,27 +23,27 @@ export default class App extends Component{
         },
         {
           id: 1,
-          path: require('./assets/b.png'),
+          path: require('./assets/b2.png'),
           text: 'B for Banana'
         },
         {
           id: 2,
-          path: require('./assets/c.png'),
+          path: require('./assets/c1.png'),
           text: 'C for Cat'
         },
         {
           id: 0,
-          path: require('./assets/d.png'),
+          path: require('./assets/d2.png'),
           text: 'D for Dog'
         },
         {
           id: 0,
-          path: require('./assets/e.png'),
+          path: require('./assets/e1.png'),
           text: 'E for Elephant'
         },
         {
           id: 0,
-          path: require('./assets/f.png'), 
+          path: require('./assets/f3.png'), 
           text: 'F for Fish'
         },
         {
