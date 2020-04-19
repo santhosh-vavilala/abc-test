@@ -30,7 +30,7 @@ export default function App() {
         <View style={{ flex: 1, flexDirection: 'column', backgroundColor: 'white' }}>
         <Button 
           title="Home"
-          color="powderblue" 
+          color="skyblue" 
 
           onPress={() => Alert.alert('Button with adjusted color pressed')}
         />
