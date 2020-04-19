@@ -33,9 +33,70 @@ export default class App extends Component{
         },
         {
           id: 0,
+          path: require('./assets/d.png'),
+          text: 'D for Dog'
+        },
+        {
+          id: 0,
+          path: require('./assets/e.png'),
+          text: 'E for Elephant'
+        },
+        {
+          id: 0,
+          path: require('./assets/f.png'), 
+          text: 'F for Fish'
+        },
+        {
+          id: 0,
+          path: require('./assets/g.png'), 
+          text: 'G for Grapes'
+        },
+        {
+          id: 0,
+          path: require('./assets/h.png'), 
+          text: 'H for Horse'
+        },
+        {
+          id: 0,
+          path: require('./assets/i.png'), 
+          text: 'I for Icecream'
+        },
+        {
+          id: 0,
+          path: require('./assets/j.png'), 
+          text: 'J for Jug'
+        },
+        {
+          id: 0,
+          path: require('./assets/k.png'), 
+          text: 'K for Kite'
+        },
+        {
+          id: 0,
+          path: require('./assets/l.png'), 
+          text: 'L for Lion'
+        },
+        {
+          id: 0,
+          path: require('./assets/m.png'), 
+          text: 'M for Monkey'
+        },
+        {
+          id: 0,
+          path: require('./assets/n.png'), 
+          text: 'N for Nest'
+        },
+        {
+          id: 0,
           path: require('./assets/o.jpg'),
           text: 'O for Orange'
+        },
+        {
+          id: 0,
+          path: require('./assets/p.png'), 
+          text: 'P for Pen'
         }
+        
       ]
  
     }
@@ -46,6 +107,24 @@ export default class App extends Component{
     this.setState({
  
       currentIndex : (this.state.currentIndex < this.state.images.length - 1) ?  this.state.currentIndex + 1 : 0
+ 
+    })
+  }
+
+  handlePrev=()=>{
+ 
+    this.setState({
+ 
+      currentIndex : (this.state.currentIndex >= 1) ?  this.state.currentIndex - 1 : 0
+ 
+    })
+  }
+
+  handleHome=()=>{
+ 
+    this.setState({
+ 
+      currentIndex :  0
  
     })
   }
@@ -72,7 +151,7 @@ export default class App extends Component{
             <Button
               title="Previous"
               color="powderblue"
-              onPress={() => Alert.alert('Button with adjusted color pressed')}
+              onPress={this.handlePrev}
             />
           </View> 
   
@@ -81,7 +160,7 @@ export default class App extends Component{
               title="Home"
               color="skyblue"
   
-              onPress={() => Alert.alert('Button with adjusted color pressed')}
+              onPress={this.handleHome}
             />
           </View>
   
