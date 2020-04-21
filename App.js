@@ -88,7 +88,7 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/o.jpg'),
+          path: require('./assets/o2.png'),
           text: 'O for Orange'
         },
         {
