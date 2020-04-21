@@ -166,7 +166,7 @@ export default class App extends Component{
  
     this.setState({
  
-      currentIndex : (this.state.currentIndex >= 1) ?  this.state.currentIndex - 1 : 0
+      currentIndex : (this.state.currentIndex >= 1) ?  this.state.currentIndex - 1 : this.state.images.length - 1
  
     })
   }
