@@ -163,7 +163,6 @@ export default class App extends Component{
   }
 
   handlePrev=()=>{
- 
     this.setState({
  
       currentIndex : (this.state.currentIndex >= 1) ?  this.state.currentIndex - 1 : this.state.images.length - 1
