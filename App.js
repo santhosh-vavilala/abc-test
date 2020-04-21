@@ -33,7 +33,7 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/d2.png'),
+          path: require('./assets/d3.png'),
           text: 'D for Dog'
         },
         {
@@ -43,7 +43,7 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/f3.png'), 
+          path: require('./assets/f6.png'), 
           text: 'F for Fish'
         },
         {
@@ -53,7 +53,7 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/h.png'), 
+          path: require('./assets/h1.png'), 
           text: 'H for Horse'
         },
         {
@@ -63,27 +63,27 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/j.png'), 
+          path: require('./assets/j1.png'), 
           text: 'J for Jug'
         },
         {
           id: 0,
-          path: require('./assets/k.png'), 
+          path: require('./assets/k1.png'), 
           text: 'K for Kite'
         },
         {
           id: 0,
-          path: require('./assets/l.png'), 
+          path: require('./assets/l1.png'), 
           text: 'L for Lion'
         },
         {
           id: 0,
-          path: require('./assets/m.png'), 
+          path: require('./assets/m1.png'), 
           text: 'M for Monkey'
         },
         {
           id: 0,
-          path: require('./assets/n.png'), 
+          path: require('./assets/n1.png'), 
           text: 'N for Nest'
         },
         {
@@ -93,9 +93,60 @@ export default class App extends Component{
         },
         {
           id: 0,
-          path: require('./assets/p.png'), 
-          text: 'P for Pen'
-        }
+          path: require('./assets/p2.png'), 
+          text: 'P for Parrot'
+        },
+        {
+          id: 0,
+          path: require('./assets/q2.png'), 
+          text: 'Q for Queen'
+        },
+        {
+          id: 0,
+          path: require('./assets/r1.png'), 
+          text: 'R for Rabbit'
+        },
+        {
+          id: 0,
+          path: require('./assets/s1.png'), 
+          text: 'S for Sun'
+        },
+        {
+          id: 0,
+          path: require('./assets/t1.png'), 
+          text: 'T for Tree'
+        },
+        {
+          id: 0,
+          path: require('./assets/u1.png'), 
+          text: 'U for Umbrella'
+        },
+        {
+          id: 0,
+          path: require('./assets/v2.png'), 
+          text: 'V for Voilin'
+        },
+        {
+          id: 0,
+          path: require('./assets/w4.png'), 
+          text: 'W for Watch'
+        }, 
+        {
+          id: 0,
+          path: require('./assets/x3.png'), 
+          text: 'X for X-mas tree'
+        },
+        {
+          id: 0,
+          path: require('./assets/y2.png'), 
+          text: 'Y for Yatch'
+        },
+        {
+          id: 0,
+          path: require('./assets/z2.png'), 
+          text: 'Z for Zebra'
+        },
+
         
       ]
  
